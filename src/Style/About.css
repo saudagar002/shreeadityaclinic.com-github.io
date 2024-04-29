@@ -1,0 +1,50 @@
+/* About.css */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 10cm;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-7 {
+    flex: 1;
+    padding: 0 15px;
+    margin-top: 5cm;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    display: inline-block; 
+    text-align: justify;
+  }
+  
+  .col-md-5 {
+    flex: 0 0 40%;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .col-md-7,
+    .col-md-5 {
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+  }
+  

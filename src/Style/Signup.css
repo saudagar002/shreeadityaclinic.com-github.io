@@ -1,0 +1,53 @@
+/* Signup.css */
+.signup-container {
+  padding: 20px;
+  margin-top: 2cm;
+  /* background-color: antiquewhite; */
+  background-image: url(../Components/Assets/smile5.jpg);
+  height: 7cm;
+}
+
+.signup-content {
+  text-align: center;
+  margin-top: 1cm;
+}
+
+.signup-content h2 {
+  color: rgb(12, 10, 10);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the form on the screen */
+}
+
+.signup-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.signup-button {
+  padding: 10px;
+  background-color: #0c0e0c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+  .signup-input-container {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+}

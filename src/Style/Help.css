@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+.hlo {
+  text-align: center;
+  margin-top: 15vh;
+}
+
+h3,
+h1 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.abs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3cm;
+  flex-wrap: wrap;
+  gap: 2cm;
+}
+
+.icon-wrapper {
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+  gap:2cm
+}
+
+.fa-face-smile,
+.fa-teeth,
+.fa-face-grimace {
+  font-size: 40px;
+  color: #1d0766;
+  transition: all 0.3s ease;
+  margin-bottom: 10px; /* Add margin to create space below the icons */
+}
+
+.fa-arrow-right-long {
+  font-size: 20px;
+  color: #090221;
+  transition: all 0.3s ease;
+  margin-left: 5px; /* Add margin to create space to the left of the arrow icon */
+  margin-right: 5px; /* Add margin to create space to the right of the arrow icon */
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #23051d;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.one-1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Hover effect for smile icons */
+.icon-container:hover .fa-face-smile,
+.icon-container:hover .fa-teeth,
+.icon-container:hover .fa-face-grimace {
+  font-size: 80px;
+}
+
+/* Hover effect for the arrow icon */
+.icon-container:hover .fa-arrow-right-long {
+  font-size: 30px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .abs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-wrapper {
+    width: 100%;
+  }
+}

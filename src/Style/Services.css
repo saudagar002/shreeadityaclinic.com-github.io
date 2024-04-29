@@ -1,0 +1,19 @@
+/* Services.css */
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-image {
+  height: 200px; /* Set the desired height */
+  width: auto; /* Maintain the aspect ratio */
+}
+
+
+
+
+
+
+

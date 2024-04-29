@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .hlo {
+    text-align: center;
+    margin-top: 15vh;
+  }
+  
+  h3, h1 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Safety.css */
+
+.image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Adjust margin as needed */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1); /* Increase size on hover, adjust as needed */
+  }
+  
+  .image-description {
+    text-align: center;
+  }
+  
+  .image-description h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .image-description p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center paragraph */
+  }
+  
